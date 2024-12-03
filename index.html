@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Randomizer</h1>
+        <button id="get-recipe">Get Random Recipe</button>
+        
+        <div id="recipe-container" class="hidden">
+            <div class="recipe-header">
+                <h2 id="recipe-title"></h2>
+                <img id="recipe-image" alt="Recipe Image">
+            </div>
+            
+            <div class="recipe-details">
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul id="ingredients-list"></ul>
+                </div>
+                
+                <div class="instructions">
+                    <h3>Instructions</h3>
+                    <ol id="instructions-list"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
